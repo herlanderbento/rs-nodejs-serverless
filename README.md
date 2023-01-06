@@ -1,5 +1,9 @@
-<h1 align="center">
+<p align="center"> 
     <img src="https://www.vectorlogo.zone/logos/serverless/serverless-icon.svg">
+</p>
+
+<h1 align="center">
+   Serverless
 </h1>
 
 <p align="center">
@@ -26,15 +30,15 @@ O projeto tem como responsabilidade gerar um certificado para um usuário e a po
 
 ### Para rodar localmente
 
-- Rode `yarn` para instalar as dependências
-- Rode `yarn dynamodb:install` para baixar o DynamoDB localmente
-- Rode `yarn dynamo:start` para iniciar o banco de dados em ambiente local
-- Rode, em outro terminal, o `yarn dev` para iniciar a aplicação em ambiente local
+- Rode `npm install` para instalar as dependências
+- Rode `npm run dynamodb:install` para baixar o DynamoDB localmente
+- Rode `npm run dynamo:start` para iniciar o banco de dados em ambiente local
+- Rode, em outro terminal, o `npm run dev` para iniciar a aplicação em ambiente local
 
 ### Para fazer o deploy
 
 - Configurar as credenciais do usuário
-- Rode `yarn deploy` para subir o projeto para AWS Lambda
+- Rode `npm run deploy` para subir o projeto para AWS Lambda
 
 ## 📄 Licença
 
